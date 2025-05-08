@@ -1,3 +1,4 @@
+
 # Car Dealership Management System
 
 ## Project Overview
@@ -50,3 +51,47 @@ After purchasing a car, users can provide feedback and rate their purchase on a 
 ```bash
 git clone https://github.com/your-username/Car-Dealership-System.git
 cd Car-Dealership-System
+```
+
+### 2. Build the Project with CMake
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+```
+
+### 3. Run the Program
+
+```bash
+./car_dealership
+```
+
+---
+
+## Project Structure
+
+```bash
+/Car-Dealership-System
+├── main.c                    # Main program code
+├── CMakeLists.txt            # CMake build configuration
+├── sales_data.txt            # Sales data (persisted after car purchase)
+├── feedback_data.txt         # Customer feedback (persisted after car purchase)
+├── README.md                 # Project description and instructions
+└── /src                       # Optional: Source files if modularized
+```
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contributing
+
+If you would like to contribute to this project, please fork the repository, create a new branch, make your changes, and submit a pull request.
+
+---
